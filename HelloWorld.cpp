@@ -4,7 +4,14 @@ using namespace std;
 
 int main()
 {
-  cout << "Hello world" << endl;
+  int i;
+  int j;
+  
+  cout << "introduzca dos enteros: " << endl;
+  cin >> i;
+  cin >> j;
+  
+  cout << "La suma es: " << i + j << endl;
   
   return 0;
 }
